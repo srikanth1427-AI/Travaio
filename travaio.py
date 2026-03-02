@@ -1,7 +1,7 @@
 import pandas as pd
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyA8heEQNRJkmKbk4SmDbqSldcEd2LjOaCA")
+genai.configure(api_key="xxxxxxxxxxxxxxxxxxx")
 model_name = "gemini-2.5-flash"
 
 form_data = pd.read_csv("Responses.csv", encoding="utf-8")
